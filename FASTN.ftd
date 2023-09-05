@@ -4,6 +4,7 @@
 favicon: /-/fastn-community.github.io/gradient-business-card/favicon.ico
 
 -- fastn.dependency: fastn-community.github.io/business-card
+-- fastn.dependency: fastn-community.github.io/inter-font
 
 -- fastn.auto-import: fastn-community.github.io/gradient-business-card/assets
 
