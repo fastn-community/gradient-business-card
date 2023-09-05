@@ -1,8 +1,8 @@
 -- import: fastn-community.github.io/gradient-business-card/components/lib
 
 -- component back:
-optional caption company-name:
-optional ftd.image-src logo:
+caption company-name:
+ftd.image-src logo:
 optional string company-slogan:
 
 -- ftd.column:
@@ -14,11 +14,9 @@ role: $inherited.types.copy-regular
 color: $inherited.colors.text-strong
 
 -- ftd.image: $back.logo
-if: { back.logo != NULL }
 max-width.fixed.px: 250
 
 -- ftd.text: $back.company-name
-if: { back.company-name != NULL }
 margin-top.px: 8
 
 -- ftd.text: $back.company-slogan
@@ -26,6 +24,5 @@ if: { back.company-slogan != NULL }
 margin-top.px: 16
 
 -- end: ftd.column
-
 
 -- end: back
