@@ -10,7 +10,7 @@
 <script src="prism-8FE3A42AD547E2DBBC9FE16BA059F8F1870D613AD0C5B0B013D6205B72A62BAF.js"></script>
 <script src="default-7FF183F5916470AD2279D40584BC68C39CF9139C666D941049EC2F7749B9F611.js"></script>
 <link rel="stylesheet" href="prism-73F718B9234C00C5C14AB6A11BF239A103F0B0F93B69CD55CB5C6530501182EB.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/html-to-image/1.11.11/html-to-image.min.js"></script><script src="-/fastn-stack.github.io/fastn-js/download.js"></script>
+<script src="-/fastn-stack.github.io/fastn-js/download.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/html-to-image/1.11.11/html-to-image.min.js"></script>
 
 
 <style>
@@ -5746,8 +5746,6 @@ global["fastn_community_github_io_gradient_business_card_components_front__front
 let fastn_community_github_io_gradient_business_card_components_back__back = function (parent, inherited, args)
 {
 let __args__ = {
-company_name: null,
-logo: null,
 company_slogan: null,
 };
 inherited = fastn.recordInstance({
@@ -5767,29 +5765,15 @@ parenti0.setProperty(fastn_dom.PropertyKind.Background, fastn_dom.BackgroundStyl
 parenti0.setProperty(fastn_dom.PropertyKind.Role, inherited.get("types").get("copy_regular"), inherited);
 parenti0.setProperty(fastn_dom.PropertyKind.AlignContent, fastn_dom.AlignContent.Center, inherited);
 parenti0.setProperty(fastn_dom.PropertyKind.Children, fastn.mutableList([function (root, inherited) {
-fastn_dom.conditionalDom(root, [
-__args__.logo
-], function () {
-return (fastn_utils.getter(__args__.logo) !== null);
-}, function (root) {
 let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Image);
 rooti0.setProperty(fastn_dom.PropertyKind.ImageSrc, __args__.logo, inherited);
 rooti0.setProperty(fastn_dom.PropertyKind.Fit, __args__.logo, inherited);
 rooti0.setProperty(fastn_dom.PropertyKind.MaxWidth, fastn_dom.Resizing.Fixed(fastn_dom.Length.Px(250)), inherited);
-return rooti0;
-});
 },
 function (root, inherited) {
-fastn_dom.conditionalDom(root, [
-__args__.company_name
-], function () {
-return (fastn_utils.getter(__args__.company_name) !== null);
-}, function (root) {
 let rooti0 = fastn_dom.createKernel(root, fastn_dom.ElementKind.Text);
 rooti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.company_name, inherited);
 rooti0.setProperty(fastn_dom.PropertyKind.MarginTop, fastn_dom.Length.Px(8), inherited);
-return rooti0;
-});
 },
 function (root, inherited) {
 fastn_dom.conditionalDom(root, [
