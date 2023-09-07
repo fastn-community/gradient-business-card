@@ -18,7 +18,7 @@ height.fixed.px: 350
 background.linear-gradient: $lib.lg 
 spacing: space-between
 padding.px: 32
-color: $inherited.colors.text-strong
+color: #FFFFFF
 
 -- ftd.row:
 role: $inherited.types.heading-large
@@ -102,7 +102,7 @@ if: { front.contact-2 != NULL }
 -- ftd.column:
 width.fixed.px: 1
 height: fill-container
-background.solid: $inherited.colors.text-strong
+background.solid: #FFFFFF
 
 -- end: ftd.column
 
