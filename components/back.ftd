@@ -11,7 +11,7 @@ height.fixed.px: 350
 background.linear-gradient: $lib.lg 
 align-content: center
 role: $inherited.types.copy-regular
-color: $inherited.colors.text-strong
+color: #FFFFFF
 
 -- ftd.image: $back.logo
 max-width.fixed.px: 250
